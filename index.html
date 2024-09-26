@@ -243,7 +243,14 @@ Use the enclosed pre-set Abstract form (A4). The settings are given in parenthes
 <p>The name and the presenting author’s email address must be provided below when submitting the abstract.<br>
 Do not forget to register first before the abstract submission. The official language of the conference is English.<br>
 If you have any questions, do not hesitate to email: marta.maleszewska@uw.edu.pl
-
+	
+<form action="upload_file.php" method="post"
+enctype="multipart/form-data">
+<label for="file">Filename:</label>
+<input type="file" name="file" id="file" /> 
+<br />
+<input type="submit" name="submit" value="Submit" />
+</form>
 
 			</div><!--/.section-header-->
 			
