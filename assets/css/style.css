@@ -77,7 +77,7 @@ ul{
 	padding: 0 0px 0;
     margin: 0 auto;
     list-style: circle;
-list-style-position: outside;
+	list-style-position: outside;
 
 }
 ul li {
@@ -875,7 +875,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 }
 .footer-menu ul.footer-menu-item li a:hover{color: #f43032;}
 .hm-footer-copyright {
-    padding: 40px 0;
+    padding: 30px 0;
     border-top: 1px solid #e1e5eb;
 }
 .hm-footer-copyright p,.hm-footer-copyright p a {
